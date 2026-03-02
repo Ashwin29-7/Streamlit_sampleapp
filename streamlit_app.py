@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Simple Demo App", layout="centered")
 
 # Title
-st.title("🚀 Simple Streamlit App")
+st.title("Streamlit App")
 
-st.write("This is a basic interactive demo application.")
+st.write("This is a my first App")
 
 # Sidebar
 st.sidebar.header("Settings")
