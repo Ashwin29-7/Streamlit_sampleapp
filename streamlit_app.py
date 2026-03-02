@@ -23,16 +23,6 @@ result = number * multiplier
 
 st.success(f"Result: {result}")
 
-# Plot Section
-st.header("Sine Wave Plot")
 
-x = np.linspace(0, 10, 100)
-y = np.sin(x * multiplier)
-
-fig, ax = plt.subplots()
-ax.plot(x, y)
-ax.set_title("Sine Wave")
-
-st.pyplot(fig)
 
 st.write("App created successfully 🎉")
